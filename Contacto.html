@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Formulario de contacto con preguntas frecuentes">
+    <meta name="keywords"  content="Formulario, consultas, preguntas frecuentes">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Estilos/Estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="./Index.html"> <img class="img-fluid navbar__logo" src="./Imagenes/69726196-letra-m-monograma-logotipo-marca-de-línea-de-solapamiento-mm-iniciales-combinación-de-símbolos-maqueta-en-b.jpg" alt="Mi Logo"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item navbar__nav-item">
+              <a class="nav-link" href="./Index.html">Home</a>
+            </li>
+            <li class="nav-item navbar__nav-item">
+              <a class="nav-link" href="./Proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item navbar__nav-item">
+              <a class="nav-link" href="./sobreMi.html">Sobre Mi</a>
+            </li>
+            <li class="nav-item navbar__nav-item">
+              <a class="nav-link" href="./Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="heroContacto">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="Text heroContacto__Text col-md-12">
+            <h2>“Todos los edificios tienen siempre algo que esta bien pensado, y que es lindo.”</h2>
+            <h4>Arq. Clorindo Testa</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="contacto col-md-6 offset-md-3 text-center mt-3 mb-3">
+                <h1>Contactenos</h1>
+                <h3>Para brindar un mejor servicio, dejanos tu consulta</h3>
+                <form action="" method="GET">
+                    <fieldset class="contacto__form">
+                        <div class="contacto__nombre">
+                        <label>Nombre y Apellido</label>
+                        <input class="contacto__campo contacto__campo--estilo" type="text" placeholder="Deje su nombre y apellido" required>
+                        </div>
+
+                        <div class="contacto__nombre">
+                        <label for="userMail">Correo</label>
+                        <input class="contacto__campo contacto__campo--estilo" type="email" name="userMail" id="userMail" placeholder="Deje su correo" required>
+                        </div>
+
+                        <div class="contacto__nombre">
+                        <div> <label for="coments">Consultas</label> </div>
+                        <textarea class="contacto__campo contacto__campo--estilo" name="comments" id="comments" cols="97" rows="10" placeholder="escriba aqui su consulta"></textarea>
+                        </div>
+
+                        <div class="contacto__botones">
+                        <input class="contacto__boton contacto__boton--estilo" type="submit" value="Enviar">
+                        <input class="contacto__boton contacto__boton--estilo" type="reset" value="Limpiar"> 
+                        </div>
+                    </fieldset>
+                </form>
+                <p class="contacto__parrafo contacto__parrafo--estilo">Tu consulta y tus comentarios ayudan a mejorar los servicios ofrecidos y a la vez generan una buena relacion con otros colegas y clientes</p>
+                </div>
+            </div>
+            <div class="contacto__preguntas col-md-8 offset-md-2 text-center mt-3 mb-3">
+                <h3>Preguntas Frecuentes</h3>
+                <!--PREGUNTA 1-->
+                <p>
+                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    1)¿Que planos tengo que enviar para que me realicen el modelado?
+                  </a>
+                </p>
+                <div class="collapsing" id="collapseExample">
+                  <div class="contacto_respuesta card card-body">
+                    La documentacion necesaria para empezar un modelado 3d, seria un archivo cad o varios sueltos, que contengan las plantas, vistas y cortes, con las medidas y acotaciones pertinentes.
+                  </div>
+                </div>  
+                <!--PREGUNTA 2-->
+                <p>
+                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    2)¿Como se cobra el Modelado junto con los renders?
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="contacto_respuesta card card-body">
+                    En caso de llegar a necesitar el modelado junto con los renders, se puede establecer un precio especial, por las dos cosas, convenido con el cliente.
+                  </div>
+                </div> 
+                <!--PREGUNTA 3-->
+                <p>
+                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    3)¿Cuanto se cobra por el modelado?
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="contacto_respuesta card card-body">
+                    El costo del modelado 3d, siempre va a depender de la complejidad del proyecto, de la documentacion con la que se cuente para modelar y los detalles que requiera el cliente.
+                  </div>
+                </div> 
+                <!--PREGUNTA 4-->
+                <p>
+                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    4)¿Cuanto se cobra por cada render?
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="contacto_respuesta card card-body">
+                    El costo de cada imagen renderizada, va a depender de la calidad de la imagen, en la que influye, los materiales, los detalles, si se necesita poner entorno, personas y otros objetos, y la cantidad de luces.
+                  </div>
+                </div>
+                <!--PREGUNTA 5-->
+                <p>
+                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    5)¿Cuanto tiempo tardan en hacer los trabajos?
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="contacto_respuesta card card-body">
+                    El tiempo de entrega de los trabajos, empieza a correr a partir de que el cliente contrata el servicio, abona un anticipo convenido, y va a depender de la complejidad del trabajo y del proyecto. Esto se analiza cuando el cliente presenta el proyecto a modelar o renderizar.
+                  </div>
+                </div>      
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footer">
+        <div class= "col-md-4  text-center mt-3">
+          <a href="./Index.html"> <img class="footer__logo img-fluid-md" src="./Imagenes/69726196-letra-m-monograma-logotipo-marca-de-línea-de-solapamiento-mm-iniciales-combinación-de-símbolos-maqueta-en-b.jpg" alt="Mi Logo"> </a>
+        </div>
+        <div class= "col-md-4  text-center mt-3">
+          <h3>@Copyright 2021</h3>
+          <h3>Matias Mazparrote Feliu</h3>
+          <p>Belgrano, Ciudad de Buenos Aires <br>
+          email: matumazparrote@gmail.com <br>
+          Contacto: 01137969985 </p>
+        </div>
+        <div class="footer__Iconos text-center col-md-4">
+          <ul class="footer__Links">
+            <li class="footer__Link">
+            <a href="https://www.facebook.com/Arq-Matias-Mazparrote-Feliu-108664250783460"> <i class="footer__LinkColor bi bi-facebook"></i> </a>
+            </li>
+            <li class="footer__Link"> 
+            <a href="https://www.instagram.com/arq.matias.mazparrote.feliu/"> <i class="footer__LinkColor bi bi-instagram"></i> </a>
+            </li>
+            <li class="footer__Link ">
+            <a href="https://www.linkedin.com/in/arq-mat%C3%ADas-mazparrote-feli%C3%BA/"> <i class="footer__LinkColor bi bi-linkedin"></i> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
