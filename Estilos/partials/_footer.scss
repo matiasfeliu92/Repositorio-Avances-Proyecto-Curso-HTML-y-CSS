@@ -1,0 +1,32 @@
+.footer {
+    background-image: linear-gradient(to right, #696969, #c0c0c0);
+    align-content: center;
+  
+    &__logo {
+      width: 7vw;
+      height:auto;
+    }
+  
+    &__Iconos {
+      margin-top: 60px;
+    }
+  
+    &__Links {
+      list-style-type:none ;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    &__Link {
+      transform: scale(3,3);
+      margin-left: 30px;
+      margin-right: 30px;
+      text-decoration: none;
+    }
+    
+    &__LinkColor {
+      color: black;
+    }
+    
+  }

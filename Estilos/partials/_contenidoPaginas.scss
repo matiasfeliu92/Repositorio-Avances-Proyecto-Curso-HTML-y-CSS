@@ -1,0 +1,277 @@
+@import "./variables";
+
+%hover {
+  background-color: $fondo-blanco-hover;
+  transition: $efecto-transicion;
+  padding: 5px;
+  border: $borde-hover*2 solid black;
+  border-radius: $bordes-redondeados/2;
+  transform: scale(1.10,1.10);
+  box-shadow: 5px 10px rgb(80, 74, 74);
+}
+
+%hover-contacto {
+  background-color: $fondo-blanco-hover;
+  transition: $efecto-transicion;
+  padding: 5px;
+  border: $borde-hover*2 solid black;
+  border-radius: $bordes-redondeados/2;
+  box-shadow: 5px 10px rgb(80, 74, 74);
+}
+
+body{
+  background-image: linear-gradient(to right, #808080, #dcdcdc);
+}
+
+/*PAGINA HOME*/
+.home {
+    background-color: rgb(126, 126, 126);
+    border-radius: $bordes-redondeados/2;
+    display: flex;
+    justify-content: space-evenly;
+  
+    &__seccion {
+      display:flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    &__subseccion {
+      padding: 10px;
+    }
+  
+    &__subseccion:hover {
+      @extend %hover;
+    }
+  }
+
+  .home2 {
+    background-color: rgb(173, 173, 173);
+    border-radius: $bordes-redondeados/2;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    &_subseccion {
+      display:flex;
+      flex-direction: column;
+    }
+  
+    &__img {
+      border: 1px solid black;
+    }
+  }
+
+  /*PAGINA PROYECTOS*/
+  .Proyectos__galeria {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .Proyectos__img:hover {
+      transform: scale(1.5,1.5);
+      transition: $efecto-transicion;
+    }
+  }
+
+  /*PAGINA SOBRE MI*/
+  .sobreMi__seccion2 {
+    align-self: center;
+  }
+
+  /*PAGINA CONTACTO*/
+  
+  .contacto__nombre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+  
+    .contacto__campo--estilo:hover {
+      @extend %hover-contacto;
+    }
+  }
+  
+  .contacto__boton--estilo {
+    margin-right: 20px;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .contacto__boton--estilo:hover {
+    @extend %hover-contacto;
+  }
+
+  .contacto__parrafo--estilo {
+    margin-top: 20px;
+  }
+
+  .contacto__botonPreg {
+    background-color:gray;
+    color: black;
+    font-weight: 800;
+    font-style: italic;
+    border: none;
+    width: 65vw;
+  }
+
+  .contacto__botonPreg:hover {
+    @extend %hover-contacto;
+  }
+
+  .contacto_respuesta {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: $bordes-redondeados/2;
+    margin-bottom: 15px;
+  }
+
+  /*PAGINA SOFTWARE*/
+  .software__seccion {
+    background-color: rgb(126, 126, 126);
+    border-radius: $bordes-redondeados/2;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: $height-width/3;
+  
+    .software__subseccion {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 15px;
+    }
+
+    .software__BotonReq {
+      text-decoration: none;
+      color: black;
+      font-style: italic;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .software__BotonReq:hover {
+      @extend %hover-contacto;
+    }
+  
+    .software__subseccion:hover {
+      @extend %hover-contacto;
+    }
+  }
+
+  .software2 {
+    background-color: rgb(173, 173, 173);
+    border-radius: $bordes-redondeados/2;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .software2__seccion {
+    margin-top:50px;
+    margin-bottom: 50px;
+  }
+  
+  .software2__seccion:hover {
+    @extend %hover;
+  }
+
+  /*PAGINA MODELADO*/
+  .contenidoModelado {
+  background-color: rgb(126, 126, 126);
+  border-radius: $bordes-redondeados/2; 
+  }
+
+  .modeladoTitle {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  }
+
+  .modeladoBotonReq {
+    background-color:gray;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+  }
+
+  .modeladoBotonReq:hover {
+    @extend %hover;
+  }
+
+  .fondoModal {
+    background-image: linear-gradient(to right, #808080, #dcdcdc);
+    border: $borde-hover*2 solid black;
+    padding: 10px;
+    border-radius: $bordes-redondeados/2;
+  }
+
+  .listaModelado {
+    font-style: italic;
+  }
+
+  .carruselModelado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contenidoModel2 {
+    background-color: rgb(173, 173, 173);
+    border-radius: $bordes-redondeados/2;
+    padding: 10px;
+  }
+  
+  .contenidoModelado2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .contenidoModelado2:hover {
+    @extend %hover;
+  }
+
+  /*PAGINA RENDER*/
+  .render {
+    background-color: rgb(126, 126, 126);
+    border-radius: $bordes-redondeados/2;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+    &__img {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: $height-width/3;
+    }
+
+    &__img:hover {
+      transform: scale(1.3,1.3);
+      transition: $efecto-transicion;
+    }
+  }
+  
+  .render2 {
+    background-color: rgb(173, 173, 173);
+    border-radius: $bordes-redondeados/2;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    height: $height-width/3;
+  
+    &_subseccion {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  
+    &_subseccion:hover {
+      @extend %hover;
+    }
+  }

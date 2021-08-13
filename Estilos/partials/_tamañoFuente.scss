@@ -1,0 +1,48 @@
+%encabezados {
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    @extend %encabezados;
+}
+
+h2 {
+    font-size: 25px;
+    @extend %encabezados;
+}
+
+h3 {
+    font-size: 20px;
+    @extend %encabezados;
+}
+
+h4 {
+    font-size: 15px;
+    @extend %encabezados;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+}
+
+small {
+    font-size: 15px;
+    color: black;
+    font-weight: 1000;
+}
+
+h5 {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    font-family: $fuente-paginas;
+}
