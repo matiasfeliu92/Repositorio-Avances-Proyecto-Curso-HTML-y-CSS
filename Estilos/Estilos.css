@@ -1,20 +1,18 @@
-h1, h2, h3, h4, .alerta { color: black; font-weight: bolder; font-style: italic; }
+h1, h2, h3, h4, .alerta { color: black; font-weight: bolder; }
 
-h1 { font-size: 30px; margin-top: 10px; margin-bottom: 10px; }
+h1 { font-size: 25px; font-family: "Oswald", sans-serif; margin-top: 15px; margin-bottom: 10px; }
 
-h2 { font-size: 25px; }
+h2 { font-size: 20px; font-family: "Oswald", sans-serif; }
 
-h3 { font-size: 20px; }
+h3 { font-size: 15px; font-family: "Oswald", sans-serif; }
 
-h4 { font-size: 15px; }
+h4 { font-size: 10px; font-family: "Oswald", sans-serif; }
 
-p { font-size: 15px; color: black; }
+p { font-size: 15px; font-family: "Oswald", sans-serif; color: black; }
 
-small { font-size: 15px; color: black; font-weight: 1000; }
+small { font-size: 10px; font-family: "Oswald", sans-serif; color: black; font-weight: 1000; }
 
-h5 { font-size: 10px; color: black; font-weight: bold; }
-
-body { font-family: "Roboto", sans-serif; }
+h5 { font-size: 10px; font-family: "Oswald", sans-serif; color: black; font-weight: bold; }
 
 img { border-radius: 25px; border: 1px solid black; }
 
@@ -22,7 +20,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .navbar__logo { width: 50%; height: auto; }
 
-.navbar__nav-item { color: black; font-weight: bold; font-size: 20px; padding-left: 20px; padding-right: 20px; }
+.navbar__nav-item { color: black; font-size: 20px; font-family: "Oswald", sans-serif; padding-left: 20px; padding-right: 20px; }
 
 .navbar__nav-item:hover { background-color: white; opacity: 1; border-radius: 50px; -webkit-transition: all 600ms ease; transition: all 600ms ease; }
 
@@ -44,7 +42,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .heroRender { background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg"); }
 
-.home__subseccion:hover, .software2__seccion:hover, .modeladoBotonReq:hover, .contenidoModelado2:hover, .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; padding: 5px; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+.home__subseccion:hover, .software2__seccion:hover, .modeladoBoton:hover, .contenidoModelado2:hover, .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; padding: 5px; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
 
 .contacto__nombre .contacto__campo--estilo:hover, .contacto__boton--estilo:hover, .contacto__botonPreg:hover, .software__seccion .software__BotonReq:hover, .software__seccion .software__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; padding: 5px; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
 
@@ -74,11 +72,11 @@ body { background-image: -webkit-gradient(linear, left top, right top, from(#808
 /*PAGINA CONTACTO*/
 .contacto__nombre { margin-top: 10px; margin-bottom: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
-.contacto__boton--estilo { margin-right: 20px; font-weight: 800; font-style: italic; }
+.contacto__boton--estilo { margin-right: 20px; font-weight: 800; }
 
 .contacto__parrafo--estilo { margin-top: 20px; }
 
-.contacto__botonPreg { background-color: gray; color: black; font-weight: 800; font-style: italic; border: none; width: 65vw; }
+.contacto__botonPreg { background-color: gray; color: black; font-weight: bold; border: none; width: 65vw; }
 
 .contacto_respuesta { background-color: lightgray; border: 1px solid black; border-radius: 25px; margin-bottom: 15px; }
 
@@ -87,7 +85,7 @@ body { background-image: -webkit-gradient(linear, left top, right top, from(#808
 
 .software__seccion .software__subseccion { margin-top: 10px; margin-bottom: 10px; padding: 15px; }
 
-.software__seccion .software__BotonReq { text-decoration: none; color: black; font-style: italic; font-weight: bold; padding-top: 10px; padding-bottom: 10px; margin-top: 20px; margin-bottom: 20px; }
+.software__seccion .software__BotonReq { text-decoration: none; color: black; font-weight: bold; padding-top: 10px; padding-bottom: 10px; margin-top: 20px; margin-bottom: 20px; }
 
 .software2 { background-color: #adadad; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
@@ -98,7 +96,7 @@ body { background-image: -webkit-gradient(linear, left top, right top, from(#808
 
 .modeladoTitle { margin-bottom: 20px; margin-top: 5px; }
 
-.modeladoBotonReq { background-color: gray; font-style: italic; font-size: 20px; font-weight: 800; color: black; }
+.modeladoBoton { background-color: #adaaaa; border: none; font-size: 20px; border-radius: 25px; font-weight: bold; color: black; }
 
 .fondoModal { background-image: -webkit-gradient(linear, left top, right top, from(#808080), to(#dcdcdc)); background-image: linear-gradient(to right, #808080, #dcdcdc); border: 2px solid black; padding: 10px; border-radius: 25px; }
 

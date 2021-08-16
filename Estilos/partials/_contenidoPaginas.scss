@@ -100,7 +100,6 @@ body{
   .contacto__boton--estilo {
     margin-right: 20px;
     font-weight: 800;
-    font-style: italic;
   }
   
   .contacto__boton--estilo:hover {
@@ -114,8 +113,7 @@ body{
   .contacto__botonPreg {
     background-color:gray;
     color: black;
-    font-weight: 800;
-    font-style: italic;
+    font-weight: bold;
     border: none;
     width: 65vw;
   }
@@ -150,7 +148,6 @@ body{
     .software__BotonReq {
       text-decoration: none;
       color: black;
-      font-style: italic;
       font-weight: bold;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -195,15 +192,16 @@ body{
   margin-top: 5px;
   }
 
-  .modeladoBotonReq {
-    background-color:gray;
-    font-style: italic;
+  .modeladoBoton {
+    background-color:rgb(173, 170, 170);
+    border:none;
     font-size: 20px;
-    font-weight: 800;
+    border-radius: $bordes-redondeados/2;
+    font-weight: bold;
     color: black;
   }
 
-  .modeladoBotonReq:hover {
+  .modeladoBoton:hover {
     @extend %hover;
   }
 
