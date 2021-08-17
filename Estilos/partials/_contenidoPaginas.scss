@@ -3,7 +3,6 @@
 %hover {
   background-color: $fondo-blanco-hover;
   transition: $efecto-transicion;
-  padding: 5px;
   border: $borde-hover*2 solid black;
   border-radius: $bordes-redondeados/2;
   transform: scale(1.10,1.10);
@@ -13,7 +12,6 @@
 %hover-contacto {
   background-color: $fondo-blanco-hover;
   transition: $efecto-transicion;
-  padding: 5px;
   border: $borde-hover*2 solid black;
   border-radius: $bordes-redondeados/2;
   box-shadow: 5px 10px rgb(80, 74, 74);
@@ -62,6 +60,11 @@ body{
   
     &__img {
       border: 1px solid black;
+    }
+
+    &__img:hover {
+      transform: scale(1.6,1.6);
+      transition: $efecto-transicion;
     }
   }
 

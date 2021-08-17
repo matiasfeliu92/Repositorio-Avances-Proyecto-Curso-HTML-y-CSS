@@ -42,9 +42,9 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .heroRender { background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg"); }
 
-.home__subseccion:hover, .software2__seccion:hover, .modeladoBoton:hover, .contenidoModelado2:hover, .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; padding: 5px; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+.home__subseccion:hover, .software2__seccion:hover, .modeladoBoton:hover, .contenidoModelado2:hover, .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
 
-.contacto__nombre .contacto__campo--estilo:hover, .contacto__boton--estilo:hover, .contacto__botonPreg:hover, .software__seccion .software__BotonReq:hover, .software__seccion .software__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; padding: 5px; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+.contacto__nombre .contacto__campo--estilo:hover, .contacto__boton--estilo:hover, .contacto__botonPreg:hover, .software__seccion .software__BotonReq:hover, .software__seccion .software__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
 
 /*PAGINA HOME*/
 .home { background-color: #bbb8b8; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
@@ -58,6 +58,8 @@ img { border-radius: 25px; border: 1px solid black; }
 .home2_subseccion { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 .home2__img { border: 1px solid black; }
+
+.home2__img:hover { -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
 
 /*PAGINA PROYECTOS*/
 .Proyectos__galeria { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 10px; margin-bottom: 10px; }
