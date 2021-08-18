@@ -2,8 +2,14 @@
     background-image: linear-gradient(to right, #696969, #c0c0c0);
 
     &__logo {
-      width: 50%;
-      height: auto;
+      text-decoration: none;
+      
+
+      h1 {
+        font-family: $fuente-paginas;
+        font-size: 40px;
+        font-weight: bolder;
+      }
     }
 
     &__nav-item {
