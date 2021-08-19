@@ -1,0 +1,87 @@
+@media (hover: none) {
+    .home__subseccion:hover {
+        transition: none;
+        border: none;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .home2__img:hover {
+        pointer-events: none;
+    }
+
+    .Proyectos__img:hover {
+        pointer-events: none;
+    }
+
+    .contacto__campo--estilo:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .contacto__boton--estilo:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .contacto__botonPreg:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .software__BotonReq:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        box-shadow: none;
+      }
+    
+    .software__subseccion:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .software2__seccion:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .modeladoBoton:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .contenidoModelado2:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .render__img:hover {
+        pointer-events: none;
+      }
+
+    .render2_subseccion:hover {
+        background-color: $fondo-blanco-hover;
+        transition: none;
+        border: none;
+        transform: none;
+        box-shadow: none;
+    }
+}

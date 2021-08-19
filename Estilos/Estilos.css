@@ -20,11 +20,13 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .navbar__logo { text-decoration: none; }
 
-.navbar__logo h1 { font-family: "Oswald", sans-serif; font-size: 40px; font-weight: bolder; }
+.navbar__logo h1 { font-family: "Oswald", sans-serif; font-size: 40px; font-weight: bolder; padding: 5px; }
+
+.navbar__logo h1:hover { background-color: white; border-radius: 25px; }
 
 .navbar__nav-item { color: black; font-size: 20px; font-family: "Oswald", sans-serif; padding-left: 20px; padding-right: 20px; }
 
-.navbar__nav-item:hover { color: white; border-bottom: 2px solid black; -webkit-transition: all 600ms ease; transition: all 600ms ease; }
+.navbar__nav-item:hover { background-color: white; border-radius: 25px; }
 
 .heroHome, .heroProyectos, .heroSobreMi, .heroContacto, .heroSoftware, .heroModelado, .heroRender { height: 40vh; background-position: center; background-repeat: no-repeat; background-size: cover; }
 
@@ -127,9 +129,13 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .footer__logo h1 { font-family: "Oswald", sans-serif; font-size: 55px; font-weight: bolder; }
 
+.footer__logo h1:hover { background-color: white; border-radius: 25px; }
+
 .footer__Links { list-style-type: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .footer__Link { -webkit-transform: scale(2, 2); transform: scale(2, 2); text-decoration: none; }
+
+.footer__Link:hover { -webkit-transform: scale(3.5, 3.5); transform: scale(3.5, 3.5); }
 
 .footer__LinkColor { color: black; }
 
@@ -138,3 +144,17 @@ img { border-radius: 25px; border: 1px solid black; }
 .error404 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-item-align: center; align-self: center; }
 
 .alerta { font-size: 90px; }
+
+@media (hover: none) { .home__subseccion:hover { -webkit-transition: none; transition: none; border: none; -webkit-transform: none; transform: none; -webkit-box-shadow: none; box-shadow: none; }
+  .home2__img:hover { pointer-events: none; }
+  .Proyectos__img:hover { pointer-events: none; }
+  .contacto__campo--estilo:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-box-shadow: none; box-shadow: none; }
+  .contacto__boton--estilo:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-box-shadow: none; box-shadow: none; }
+  .contacto__botonPreg:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-box-shadow: none; box-shadow: none; }
+  .software__BotonReq:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-box-shadow: none; box-shadow: none; }
+  .software__subseccion:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-box-shadow: none; box-shadow: none; }
+  .software2__seccion:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-transform: none; transform: none; -webkit-box-shadow: none; box-shadow: none; }
+  .modeladoBoton:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-transform: none; transform: none; -webkit-box-shadow: none; box-shadow: none; }
+  .contenidoModelado2:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-transform: none; transform: none; -webkit-box-shadow: none; box-shadow: none; }
+  .render__img:hover { pointer-events: none; }
+  .render2_subseccion:hover { background-color: white; -webkit-transition: none; transition: none; border: none; -webkit-transform: none; transform: none; -webkit-box-shadow: none; box-shadow: none; } }

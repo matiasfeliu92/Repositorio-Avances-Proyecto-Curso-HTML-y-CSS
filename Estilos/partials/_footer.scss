@@ -10,6 +10,11 @@
         font-size: 55px;
         font-weight: bolder;
       }
+
+      h1:hover {
+        background-color: white;
+        border-radius: $bordes-redondeados/2;
+      }
     }
   
     &__Links {
@@ -23,6 +28,10 @@
     &__Link {
       transform: scale(2,2);
       text-decoration: none;
+    }
+
+    &__Link:hover {
+      transform: scale(3.5,3.5);
     }
     
     &__LinkColor {

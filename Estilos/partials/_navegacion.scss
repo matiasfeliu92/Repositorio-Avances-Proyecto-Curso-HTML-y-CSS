@@ -9,6 +9,12 @@
         font-family: $fuente-paginas;
         font-size: 40px;
         font-weight: bolder;
+        padding: 5px;
+      }
+
+      h1:hover {
+        background-color: white;
+        border-radius: $bordes-redondeados/2;
       }
     }
 
@@ -21,8 +27,7 @@
     }
 
     &__nav-item:hover {
-      color: rgb(255, 255, 255);
-      border-bottom: 2px solid black;
-      transition: $efecto-transicion;
+      background-color: white;
+      border-radius: $bordes-redondeados/2;
     }
   }
