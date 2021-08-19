@@ -34,10 +34,6 @@
     &__subseccion {
       padding: 10px;
     }
-  
-    &__subseccion:hover {
-      @extend %hover;
-    }
   }
 
   .home2 {
@@ -57,11 +53,6 @@
     &__img {
       border: 1px solid black;
     }
-
-    &__img:hover {
-      transform: scale(1.6,1.6);
-      transition: $efecto-transicion;
-    }
   }
 
   /*PAGINA PROYECTOS*/
@@ -71,11 +62,6 @@
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
-
-    .Proyectos__img:hover {
-      transform: scale(1.5,1.5);
-      transition: $efecto-transicion;
-    }
   }
 
   /*PAGINA SOBRE MI*/
@@ -90,19 +76,11 @@
     margin-bottom: 10px;
     display:flex;
     flex-direction: column;
-  
-    .contacto__campo--estilo:hover {
-      @extend %hover-contacto;
-    }
   }
   
   .contacto__boton--estilo {
     margin-right: 20px;
     font-weight: 800;
-  }
-  
-  .contacto__boton--estilo:hover {
-    @extend %hover-contacto;
   }
 
   .contacto__parrafo--estilo {
@@ -115,10 +93,6 @@
     font-weight: bold;
     border: none;
     width: 65vw;
-  }
-
-  .contacto__botonPreg:hover {
-    @extend %hover-contacto;
   }
 
   .contacto_respuesta {
@@ -153,14 +127,6 @@
       margin-top: 20px;
       margin-bottom: 20px;
     }
-
-    .software__BotonReq:hover {
-      @extend %hover-contacto;
-    }
-  
-    .software__subseccion:hover {
-      @extend %hover-contacto;
-    }
   }
 
   .software2 {
@@ -174,10 +140,6 @@
   .software2__seccion {
     margin-top:50px;
     margin-bottom: 50px;
-  }
-  
-  .software2__seccion:hover {
-    @extend %hover;
   }
 
   /*PAGINA MODELADO*/
@@ -198,10 +160,6 @@
     border-radius: $bordes-redondeados/2;
     font-weight: bold;
     color: black;
-  }
-
-  .modeladoBoton:hover {
-    @extend %hover;
   }
 
   .fondoModal {
@@ -230,10 +188,6 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  
-  .contenidoModelado2:hover {
-    @extend %hover;
-  }
 
   /*PAGINA RENDER*/
   .render {
@@ -248,11 +202,6 @@
       margin-bottom: 15px;
       width: $height-width/3;
     }
-
-    &__img:hover {
-      transform: scale(1.3,1.3);
-      transition: $efecto-transicion;
-    }
   }
   
   .render2 {
@@ -266,9 +215,5 @@
     &_subseccion {
       margin-top: 25px;
       margin-bottom: 25px;
-    }
-  
-    &_subseccion:hover {
-      @extend %hover;
     }
   }

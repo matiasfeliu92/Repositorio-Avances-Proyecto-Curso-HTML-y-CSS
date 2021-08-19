@@ -1,87 +1,101 @@
-@media (hover: none) {
+@media (min-width: 1024px) {
     .home__subseccion:hover {
-        transition: none;
-        border: none;
-        transform: none;
-        box-shadow: none;
+        background-color: $fondo-blanco-hover;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        transform: scale(1.10,1.10);
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 
     .home2__img:hover {
-        pointer-events: none;
+        transform: scale(1.6,1.6);
+        transition: $efecto-transicion;
     }
 
     .Proyectos__img:hover {
-        pointer-events: none;
+        transform: scale(1.5,1.5);
+        transition: $efecto-transicion;
     }
 
     .contacto__campo--estilo:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 
     .contacto__boton--estilo:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 
     .contacto__botonPreg:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 
     .software__BotonReq:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        box-shadow: none;
-      }
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        box-shadow: 5px 10px rgb(80, 74, 74);
+    }
     
     .software__subseccion:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 
     .software2__seccion:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        transform: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        transform: scale(1.10,1.10);
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
-
+    
     .modeladoBoton:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        transform: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        transform: scale(1.10,1.10);
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 
     .contenidoModelado2:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        transform: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        transform: scale(1.10,1.10);
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 
     .render__img:hover {
-        pointer-events: none;
-      }
+        transform: scale(1.3,1.3);
+        transition: $efecto-transicion;
+    }
 
     .render2_subseccion:hover {
         background-color: $fondo-blanco-hover;
-        transition: none;
-        border: none;
-        transform: none;
-        box-shadow: none;
+        transition: $efecto-transicion;
+        border: $borde-hover*2 solid black;
+        border-radius: $bordes-redondeados/2;
+        transform: scale(1.10,1.10);
+        box-shadow: 5px 10px rgb(80, 74, 74);
     }
 }
