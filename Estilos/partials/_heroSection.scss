@@ -13,7 +13,7 @@
 
 .heroHome {
     // height: $Height-Hero/2;
-    background-image: url(https://imagenes.elpais.com/resizer/YWs6XqFR7_veZSRI2s2eIWg7yMQ=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg);
+    background-image: url("/Imagenes/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg");
     @extend %heroStyle;
     // background-position: center;
     // background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 
 .heroProyectos {
     @extend %heroStyle;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/800px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg");
+    background-image: url("/Imagenes/800px-The_Barcelona_Pavilion\,_Barcelona\,_2010.jpg");
   
       &__Text {
         @extend %heroText;
@@ -37,7 +37,7 @@
 
 .heroSobreMi {
     @extend %heroStyle;
-    background-image: url("https://es.wikiarquitectura.com/wp-content/uploads/2017/01/CROWN_HALL_04.jpg");
+    background-image: url("/Imagenes/CROWN_HALL_04.jpg");
   
     &__Text {
       @extend %heroText;
@@ -46,7 +46,7 @@
 
 .heroContacto {
     @extend %heroStyle;
-    background-image: url("https://www.bn.gov.ar/web/home/home.jpg");
+    background-image: url("/Imagenes/biblioteca.jpg");
 
     &__Text {
       @extend %heroText;
@@ -55,7 +55,7 @@
 
 .heroSoftware {
     @extend %heroStyle;
-    background-image: url("https://www.infobae.com/new-resizer/VUkPwA32-pxp7wJaOanI9oW1vt4=/768x432/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg");
+    background-image: url("/Imagenes/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg");
   
     &__Text {
       @extend %heroText;
@@ -64,7 +64,7 @@
 
 .heroModelado {
     @extend %heroStyle;
-    background-image: url("https://fpaa.site/wp-content/uploads/2019/10/casa-emblematica-9.jpg");
+    background-image: url("/Imagenes/casa-emblematica-9.jpg");
     
     &__Text {
       @extend %heroText;
@@ -73,7 +73,7 @@
 
 .heroRender {
     @extend %heroStyle;
-    background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg");
+    background-image: url("/Imagenes/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101.jpg");
   
   
     &__Text {

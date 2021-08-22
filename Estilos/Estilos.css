@@ -32,19 +32,19 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .heroHome__Text, .heroProyectos__Text, .heroSobreMi__Text, .heroContacto__Text, .heroSoftware__Text, .heroModelado__Text, .heroRender__Text { background-color: white; opacity: 0.65; }
 
-.heroHome { background-image: url(https://imagenes.elpais.com/resizer/YWs6XqFR7_veZSRI2s2eIWg7yMQ=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg); }
+.heroHome { background-image: url("/Imagenes/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg"); }
 
-.heroProyectos { background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/800px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg"); }
+.heroProyectos { background-image: url("/Imagenes/800px-The_Barcelona_Pavilion,_Barcelona,_2010.jpg"); }
 
-.heroSobreMi { background-image: url("https://es.wikiarquitectura.com/wp-content/uploads/2017/01/CROWN_HALL_04.jpg"); }
+.heroSobreMi { background-image: url("/Imagenes/CROWN_HALL_04.jpg"); }
 
-.heroContacto { background-image: url("https://www.bn.gov.ar/web/home/home.jpg"); }
+.heroContacto { background-image: url("/Imagenes/biblioteca.jpg"); }
 
-.heroSoftware { background-image: url("https://www.infobae.com/new-resizer/VUkPwA32-pxp7wJaOanI9oW1vt4=/768x432/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg"); }
+.heroSoftware { background-image: url("/Imagenes/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg"); }
 
-.heroModelado { background-image: url("https://fpaa.site/wp-content/uploads/2019/10/casa-emblematica-9.jpg"); }
+.heroModelado { background-image: url("/Imagenes/casa-emblematica-9.jpg"); }
 
-.heroRender { background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg"); }
+.heroRender { background-image: url("/Imagenes/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101.jpg"); }
 
 /*PAGINA HOME*/
 .home { background-color: #bbb8b8; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
