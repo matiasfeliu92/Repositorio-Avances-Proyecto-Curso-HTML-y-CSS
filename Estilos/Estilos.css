@@ -137,7 +137,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 @media (min-width: 1024px) { .home__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .home2__img:hover { -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
-  .Proyectos__img:hover { -webkit-transform: scale(1.5, 1.5); transform: scale(1.5, 1.5); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
+  .Proyectos__img:hover { -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
   .contacto__campo--estilo:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .contacto__boton--estilo:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .contacto__botonPreg:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
@@ -146,5 +146,5 @@ img { border-radius: 25px; border: 1px solid black; }
   .software2__seccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .modeladoBoton:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .contenidoModelado2:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .render__img:hover { -webkit-transform: scale(1.3, 1.3); transform: scale(1.3, 1.3); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
+  .render__img:hover { -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
   .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; } }
