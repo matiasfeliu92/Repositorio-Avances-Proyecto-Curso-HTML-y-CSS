@@ -16,7 +16,12 @@
 }
 
 @mixin hoverImg {
-    transform: scale(1.6,1.6);
+    transform: scale(1.35,1.35);
+    transition: $efecto-transicion;
+}
+
+@mixin hoverImg1 {
+    transform: scale(1.70,1.70);
     transition: $efecto-transicion;
 }
 
@@ -26,7 +31,7 @@
     }
 
     .home2__img:hover {
-        @include hoverImg;
+        @include hoverImg1;
     }
 
     .Proyectos__img:hover {
