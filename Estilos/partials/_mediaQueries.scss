@@ -16,12 +16,12 @@
 }
 
 @mixin hoverImg {
-    transform: scale(1.35,1.35);
+    transform: scale(2,2);
     transition: $efecto-transicion;
 }
 
 @mixin hoverImg1 {
-    transform: scale(1.70,1.70);
+    transform: scale(1.37,1.37);
     transition: $efecto-transicion;
 }
 
@@ -71,7 +71,7 @@
     }
 
     .render__img:hover {
-        @include hoverImg;
+        @include hoverImg1;
     }
 
     .render2_subseccion:hover {
