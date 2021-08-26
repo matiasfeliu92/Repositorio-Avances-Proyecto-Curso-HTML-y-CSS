@@ -18,6 +18,7 @@
       em:hover {
         background-color: white;
         border-radius: $bordes-redondeados/2;
+        transition: $efecto-transicion;
       }
     }
 
@@ -32,5 +33,6 @@
     &__nav-item:hover {
       background-color: white;
       border-radius: $bordes-redondeados/2;
+      transition: $efecto-transicion;
     }
   }

@@ -22,13 +22,13 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .navbar__logo em { font-family: "Oswald", sans-serif; text-decoration: none; color: black; font-size: 40px; font-style: normal; font-weight: bolder; padding: 5px; }
 
-.navbar__logo em:hover { background-color: white; border-radius: 25px; }
+.navbar__logo em:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
 .navbar__nav-item { color: black; font-size: 20px; font-family: "Oswald", sans-serif; padding-left: 20px; padding-right: 20px; }
 
-.navbar__nav-item:hover { background-color: white; border-radius: 25px; }
+.navbar__nav-item:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
-.heroHome, .heroProyectos, .heroSobreMi, .heroContacto, .heroSoftware, .heroModelado, .heroRender { height: 70vh; background-position: center; background-repeat: no-repeat; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.heroHome, .heroProyectos, .heroSobreMi, .heroContacto, .heroSoftware, .heroModelado, .heroRender { height: 60vh; background-position: center; background-repeat: no-repeat; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
 .heroHome__Text, .heroProyectos__Text, .heroSobreMi__Text, .heroContacto__Text, .heroSoftware__Text, .heroModelado__Text, .heroRender__Text { background-color: white; opacity: 0.7; }
 
@@ -65,18 +65,22 @@ img { border-radius: 25px; border: 1px solid black; }
 .Proyectos__galeria .Proyectos__imagenes { margin: 5px; }
 
 /*PAGINA SOBRE MI*/
+.sobreMi { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
 .sobreMi__seccion2 { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
 
 /*PAGINA CONTACTO*/
+.contacto { background-color: #bbb8b8; border-radius: 25px; padding: 10px; }
+
 .contacto__nombre { margin-top: 10px; margin-bottom: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 .contacto__boton--estilo { margin-right: 20px; font-weight: 800; }
 
 .contacto__parrafo--estilo { margin-top: 20px; }
 
-.contacto__botonPreg { background-color: gray; color: black; font-weight: bold; border: none; width: 65vw; }
+.contacto__preguntas { background-color: #dddddd; border-radius: 25px; padding: 10px; }
 
-.contacto_respuesta { background-color: lightgray; border: 1px solid black; border-radius: 25px; margin-bottom: 15px; }
+.contacto__preguntas .contacto__pregunta--estilo { font-weight: bold; }
 
 /*PAGINA SOFTWARE*/
 .software__seccion { background-color: #bbb8b8; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; height: 100%; }
@@ -119,9 +123,9 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .footer__logo { text-decoration: none; }
 
-.footer__logo em { font-family: "Oswald", sans-serif; text-decoration: none; font-style: normal; color: black; font-size: 55px; font-weight: bolder; }
+.footer__logo em { font-family: "Oswald", sans-serif; text-decoration: none; font-style: normal; color: black; font-size: 55px; font-weight: bolder; padding: 5px; }
 
-.footer__logo em:hover { background-color: white; border-radius: 25px; }
+.footer__logo em:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
 .footer__datos { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; margin: 5px; }
 
@@ -129,7 +133,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .footer__Link { -webkit-transform: scale(2, 2); transform: scale(2, 2); text-decoration: none; margin-left: 35px; margin-right: 35px; }
 
-.footer__Link:hover { -webkit-transform: scale(3.5, 3.5); transform: scale(3.5, 3.5); }
+.footer__Link:hover { -webkit-transform: scale(3.5, 3.5); transform: scale(3.5, 3.5); -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
 .footer__LinkColor { color: black; }
 
@@ -139,19 +143,21 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .alerta { font-size: 90px; }
 
-@media (min-width: 1024px) { .home__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .home2__img:hover { -webkit-transform: scale(1.37, 1.37); transform: scale(1.37, 1.37); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
-  .Proyectos__img:hover { -webkit-transform: scale(2, 2); transform: scale(2, 2); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
-  .contacto__campo--estilo:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contacto__boton--estilo:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contacto__botonPreg:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .software__BotonReq:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .software__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .software2__seccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .modeladoBoton:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contenidoModelado2:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .render__img:hover { -webkit-transform: scale(1.37, 1.37); transform: scale(1.37, 1.37); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
-  .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; } }
+@media (min-width: 1024px) { .home__subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .Proyectos__img:hover { -webkit-transform: scale(2, 2); transform: scale(2, 2); -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
+  .contacto__campo--estilo:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .contacto__boton--estilo:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .contacto__botonPreg:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .software__BotonReq:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .software__subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .software2__seccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .modeladoBoton:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .contenidoModelado2:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .render__img:hover { -webkit-transform: scale(1.2, 1.2); transform: scale(1.2, 1.2); -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
+  .render2_subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; } }
 
-@media (max-width: 768px) { .footer { padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; }
+@media (max-width: 768px) { .sobreMi { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  .sobreMi__sobreMiFoto { padding: 10px; border: none; }
+  .sobreMi__seccion2 { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; padding: 5px; }
+  .footer { padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; }
   .footer em { font-family: "Oswald", sans-serif; text-decoration: none; font-style: normal; color: black; font-size: 40px; font-weight: bolder; } }

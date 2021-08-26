@@ -21,17 +21,13 @@
 }
 
 @mixin hoverImg1 {
-    transform: scale(1.37,1.37);
+    transform: scale(1.2,1.2);
     transition: $efecto-transicion;
 }
 
 @media (min-width: 1024px) {
     .home__subseccion:hover {
         @include hover1;
-    }
-
-    .home2__img:hover {
-        @include hoverImg1;
     }
 
     .Proyectos__img:hover {
@@ -80,6 +76,21 @@
 }
 
 @media (max-width: 768px) {
+    .sobreMi {
+        display: flex;
+        flex-direction: column;
+
+        &__sobreMiFoto {
+            padding: 10px;
+            border: none;
+        }
+    
+        &__seccion2 {
+          align-self: center;
+          padding: 5px;
+        }
+      }
+
     .footer {
         padding: 10px;
         display:flex;

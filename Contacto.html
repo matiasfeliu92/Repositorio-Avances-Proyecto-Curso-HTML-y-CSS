@@ -39,17 +39,19 @@
       <div class="container-fluid">
         <div class="row">
           <div class="Text heroContacto__Text col-md-12">
-            <h2>“Todos los edificios tienen siempre algo que esta bien pensado, y que es lindo.”</h2>
-            <h4>Arq. Clorindo Testa</h4>
+            <h4>“Todos los edificios tienen siempre algo que esta bien pensado, y que es lindo.”</h4>
+            <h5>Arq. Clorindo Testa</h5>
           </div>
         </div>
       </div>
     </header>
     <div class="container-fluid">
         <div class="row">
-            <div class="contacto col-md-6 offset-md-3 text-center mt-3 mb-3">
-                <h1>Contactenos</h1>
-                <h3>Para brindar un mejor servicio, dejanos tu consulta</h3>
+          <main>
+            <section>
+              <h1 class="text-center">Contactenos</h1>
+              <p class="text-center">Para brindar un mejor servicio, dejanos tu consulta</p>
+              <div class="contacto col-md-8 offset-md-2 text-center mt-3 mb-3">
                 <form action="" method="GET">
                     <fieldset class="contacto__form">
                       <div class="contacto__nombre">
@@ -71,66 +73,34 @@
                     </fieldset>
                 </form>
                 <p class="contacto__parrafo contacto__parrafo--estilo">Tu consulta y tus comentarios ayudan a mejorar los servicios ofrecidos y a la vez generan una buena relacion con otros colegas y clientes</p>
-                </div>
-            </div>
+              </div>
+            </section>
+          </main>
+          <aside>
             <div class="contacto__preguntas col-md-8 offset-md-2 text-center mt-3 mb-3">
-                <h3>Preguntas Frecuentes</h3>
-                <!--PREGUNTA 1-->
-                <p>
-                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    1)¿Que planos tengo que enviar para que me realicen el modelado?
-                  </a>
-                </p>
-                <div class="collapsing" id="collapseExample">
-                  <div class="contacto_respuesta card card-body">
-                    La documentacion necesaria para empezar un modelado 3d, seria un archivo cad o varios sueltos, que contengan las plantas, vistas y cortes, con las medidas y acotaciones pertinentes.
-                  </div>
-                </div>  
-                <!--PREGUNTA 2-->
-                <p>
-                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    2)¿Como se cobra el Modelado junto con los renders?
-                  </a>
-                </p>
-                <div class="collapse" id="collapseExample">
-                  <div class="contacto_respuesta card card-body">
-                    En caso de llegar a necesitar el modelado junto con los renders, se puede establecer un precio especial, por las dos cosas, convenido con el cliente.
-                  </div>
-                </div> 
-                <!--PREGUNTA 3-->
-                <p>
-                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    3)¿Cuanto se cobra por el modelado?
-                  </a>
-                </p>
-                <div class="collapse" id="collapseExample">
-                  <div class="contacto_respuesta card card-body">
-                    El costo del modelado 3d, siempre va a depender de la complejidad del proyecto, de la documentacion con la que se cuente para modelar y los detalles que requiera el cliente.
-                  </div>
-                </div> 
-                <!--PREGUNTA 4-->
-                <p>
-                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    4)¿Cuanto se cobra por cada render?
-                  </a>
-                </p>
-                <div class="collapse" id="collapseExample">
-                  <div class="contacto_respuesta card card-body">
-                    El costo de cada imagen renderizada, va a depender de la calidad de la imagen, en la que influye, los materiales, los detalles, si se necesita poner entorno, personas y otros objetos, y la cantidad de luces.
-                  </div>
-                </div>
-                <!--PREGUNTA 5-->
-                <p>
-                  <a class="contacto__botonPreg btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    5)¿Cuanto tiempo tardan en hacer los trabajos?
-                  </a>
-                </p>
-                <div class="collapse" id="collapseExample">
-                  <div class="contacto_respuesta card card-body">
-                    El tiempo de entrega de los trabajos, empieza a correr a partir de que el cliente contrata el servicio, abona un anticipo convenido, y va a depender de la complejidad del trabajo y del proyecto. Esto se analiza cuando el cliente presenta el proyecto a modelar o renderizar.
-                  </div>
-                </div>      
+              <h3 class="contacto__preguntas--titulo">Preguntas Frecuentes</h3>
+              <div class="contacto__pregunta">
+                <h5 class="contacto__pregunta--estilo">1)¿Que planos tengo que enviar para que me realicen el modelado?</h5>
+                <p>La documentacion necesaria para empezar un modelado 3d, seria un archivo cad o varios sueltos, que contengan las plantas, vistas y cortes, con las medidas y acotaciones pertinentes.</p>
+              </div>
+              <div class="contacto__pregunta">
+                <h5 class="contacto__pregunta--estilo">2)¿Como se cobra el Modelado junto con los renders?</h5>
+                <p>En caso de llegar a necesitar el modelado junto con los renders, se puede establecer un precio especial, por las dos cosas, convenido con el cliente.</p>
+              </div>
+              <div class="contacto__pregunta">
+                <h5 class="contacto__pregunta--estilo">3)¿Cuanto se cobra por el modelado?</h5>
+                <p>El costo del modelado 3d, siempre va a depender de la complejidad del proyecto, de la documentacion con la que se cuente para modelar y los detalles que requiera el cliente.</p>
+              </div>
+              <div class="contacto__pregunta">
+                <h5 class="contacto__pregunta--estilo">4)¿Cuanto se cobra por cada render?</h5>
+                <p>El costo de cada imagen renderizada, va a depender de la calidad de la imagen, en la que influye, los materiales, los detalles, si se necesita poner entorno, personas y otros objetos, y la cantidad de luces.</p>
+              </div>
+              <div class="contacto__pregunta">
+                <h5 class="contacto__pregunta--estilo">5)¿Cuanto tiempo tardan en hacer los trabajos</h5>
+                <p>El tiempo de entrega de los trabajos, empieza a correr a partir de que el cliente contrata el servicio, abona un anticipo convenido, y va a depender de la complejidad del trabajo y del proyecto. Esto se analiza cuando el cliente presenta el proyecto a modelar o renderizar.</p>
+              </div>
             </div>
+          </aside>
         </div>
     </div>
     <footer class="footer">

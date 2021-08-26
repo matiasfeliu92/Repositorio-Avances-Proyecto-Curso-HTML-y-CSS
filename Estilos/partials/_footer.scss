@@ -16,11 +16,13 @@
         color: black;
         font-size: 55px;
         font-weight: bolder;
+        padding: 5px;
       }
 
       em:hover {
         background-color: white;
         border-radius: $bordes-redondeados/2;
+        transition: $efecto-transicion;
       }
     }
 
@@ -49,6 +51,7 @@
 
     &__Link:hover {
       transform: scale(3.5,3.5);
+      transition: $efecto-transicion;
     }
     
     &__LinkColor {
