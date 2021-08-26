@@ -78,3 +78,23 @@
         @include hover1;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+
+        em {
+            font-family: $fuente-paginas;
+            text-decoration: none;
+            font-style: normal;
+            color: black;
+            font-size: 40px;
+            font-weight: bolder;
+          }
+    }
+}

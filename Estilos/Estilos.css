@@ -20,9 +20,9 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .navbar__logo { text-decoration: none; }
 
-.navbar__logo h1 { font-family: "Oswald", sans-serif; font-size: 40px; font-weight: bolder; padding: 5px; }
+.navbar__logo em { font-family: "Oswald", sans-serif; text-decoration: none; color: black; font-size: 40px; font-style: normal; font-weight: bolder; padding: 5px; }
 
-.navbar__logo h1:hover { background-color: white; border-radius: 25px; }
+.navbar__logo em:hover { background-color: white; border-radius: 25px; }
 
 .navbar__nav-item { color: black; font-size: 20px; font-family: "Oswald", sans-serif; padding-left: 20px; padding-right: 20px; }
 
@@ -115,17 +115,19 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .render2_subseccion { margin-top: 25px; margin-bottom: 25px; }
 
-.footer { background-image: -webkit-gradient(linear, left top, right top, from(#696969), to(#c0c0c0)); background-image: linear-gradient(to right, #696969, #c0c0c0); -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.footer { background-image: -webkit-gradient(linear, left top, right top, from(#696969), to(#c0c0c0)); background-image: linear-gradient(to right, #696969, #c0c0c0); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; }
 
 .footer__logo { text-decoration: none; }
 
-.footer__logo h1 { font-family: "Oswald", sans-serif; font-size: 55px; font-weight: bolder; }
+.footer__logo em { font-family: "Oswald", sans-serif; text-decoration: none; font-style: normal; color: black; font-size: 55px; font-weight: bolder; }
 
-.footer__logo h1:hover { background-color: white; border-radius: 25px; }
+.footer__logo em:hover { background-color: white; border-radius: 25px; }
+
+.footer__datos { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; margin: 5px; }
 
 .footer__Links { list-style-type: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.footer__Link { -webkit-transform: scale(2, 2); transform: scale(2, 2); text-decoration: none; }
+.footer__Link { -webkit-transform: scale(2, 2); transform: scale(2, 2); text-decoration: none; margin-left: 35px; margin-right: 35px; }
 
 .footer__Link:hover { -webkit-transform: scale(3.5, 3.5); transform: scale(3.5, 3.5); }
 
@@ -150,3 +152,6 @@ img { border-radius: 25px; border: 1px solid black; }
   .contenidoModelado2:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .render__img:hover { -webkit-transform: scale(1.37, 1.37); transform: scale(1.37, 1.37); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
   .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; } }
+
+@media (max-width: 768px) { .footer { padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; }
+  .footer em { font-family: "Oswald", sans-serif; text-decoration: none; font-style: normal; color: black; font-size: 40px; font-weight: bolder; } }

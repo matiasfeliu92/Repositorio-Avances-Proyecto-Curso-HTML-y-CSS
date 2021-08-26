@@ -5,14 +5,17 @@
       text-decoration: none;
       
 
-      h1 {
+      em {
         font-family: $fuente-paginas;
+        text-decoration: none;
+        color: black;
         font-size: 40px;
+        font-style: normal;
         font-weight: bolder;
         padding: 5px;
       }
 
-      h1:hover {
+      em:hover {
         background-color: white;
         border-radius: $bordes-redondeados/2;
       }

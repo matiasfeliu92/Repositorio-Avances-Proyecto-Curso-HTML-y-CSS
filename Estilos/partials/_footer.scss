@@ -1,20 +1,35 @@
 .footer {
     background-image: linear-gradient(to right, #696969, #c0c0c0);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 5px;
   
     &__logo {
       text-decoration: none;
 
-      h1 {
+      em {
         font-family: $fuente-paginas;
+        text-decoration: none;
+        font-style: normal;
+        color: black;
         font-size: 55px;
         font-weight: bolder;
       }
 
-      h1:hover {
+      em:hover {
         background-color: white;
         border-radius: $bordes-redondeados/2;
       }
+    }
+
+    &__datos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+      margin: 5px;
     }
   
     &__Links {
@@ -28,6 +43,8 @@
     &__Link {
       transform: scale(2,2);
       text-decoration: none;
+      margin-left: 35px;
+      margin-right: 35px;
     }
 
     &__Link:hover {
