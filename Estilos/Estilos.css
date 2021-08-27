@@ -8,7 +8,7 @@ h3 { font-size: 12px; font-family: "Oswald", sans-serif; }
 
 h4 { font-size: 5px; font-family: "Oswald", sans-serif; }
 
-p { font-size: 15px; font-family: "Oswald", sans-serif; color: black; }
+p { font-size: 16px; font-family: "Oswald", sans-serif; color: black; }
 
 small { font-size: 10px; font-family: "Oswald", sans-serif; color: black; font-weight: 1000; }
 
@@ -115,7 +115,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .render__img { margin-top: 15px; margin-bottom: 15px; width: 100%; }
 
-.render2 { background-color: #dddddd; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: 100%; }
+.render2 { background-color: #dddddd; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 .render2_subseccion { margin-top: 25px; margin-bottom: 25px; }
 
@@ -152,9 +152,9 @@ img { border-radius: 25px; border: 1px solid black; }
   .software__subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .software2__seccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .modeladoBoton:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contenidoModelado2:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); }
+  .contenidoModelado2:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .render__img:hover { -webkit-transform: scale(1.2, 1.2); transform: scale(1.2, 1.2); -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
-  .render2_subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); } }
+  .render2_subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; } }
 
 @media (max-width: 768px) { .sobreMi { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .sobreMi__sobreMiFoto { padding: 10px; border: none; }

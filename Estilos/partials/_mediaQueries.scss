@@ -1,4 +1,4 @@
-@mixin hover {
+@mixin hover ($fondo-blanco-hover, $efecto-transicion, $bordes-redondeados) {
     background-color: $fondo-blanco-hover;
     transition: $efecto-transicion;
     border: $borde-hover*2 solid black;
@@ -8,7 +8,7 @@
 
 @media (min-width: 1024px) {
     .home__subseccion:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
         transform: scale(1.10,1.10);
     }
 
@@ -18,36 +18,35 @@
     }
 
     .contacto__campo--estilo:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
     }
 
     .contacto__boton--estilo:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
     }
 
     .contacto__botonPreg:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
     }
 
     .software__BotonReq:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
     }
     
     .software__subseccion:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
     }
 
     .software2__seccion:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
     }
     
     .modeladoBoton:hover {
-        @include hover;
+        @include hover (white, all 1000ms ease, 50px);
     }
 
     .contenidoModelado2:hover {
-        @include hover;
-        transform: scale(1.10,1.10);
+        @include hover (white, all 1000ms ease, 50px);
     }
 
     .render__img:hover {
@@ -56,8 +55,7 @@
     }
 
     .render2_subseccion:hover {
-        @include hover;
-        transform: scale(1.10,1.10);
+        @include hover (white, all 1000ms ease, 50px);
     }
 }
 
