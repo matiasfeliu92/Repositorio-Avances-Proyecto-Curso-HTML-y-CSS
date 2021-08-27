@@ -1,77 +1,63 @@
-@mixin hover1 {
-    background-color: $fondo-blanco-hover;
-    transition: $efecto-transicion;
-    border: $borde-hover*2 solid black;
-    border-radius: $bordes-redondeados/2;
-    transform: scale(1.10,1.10);
-    box-shadow: 5px 10px rgb(80, 74, 74);
-}
-
-@mixin hover2 {
+@mixin hover {
     background-color: $fondo-blanco-hover;
     transition: $efecto-transicion;
     border: $borde-hover*2 solid black;
     border-radius: $bordes-redondeados/2;
     box-shadow: 5px 10px rgb(80, 74, 74);
-}
-
-@mixin hoverImg {
-    transform: scale(2,2);
-    transition: $efecto-transicion;
-}
-
-@mixin hoverImg1 {
-    transform: scale(1.2,1.2);
-    transition: $efecto-transicion;
 }
 
 @media (min-width: 1024px) {
     .home__subseccion:hover {
-        @include hover1;
+        @include hover;
+        transform: scale(1.10,1.10);
     }
 
     .Proyectos__img:hover {
-        @include hoverImg;
+        transition: $efecto-transicion;
+        transform: scale(2,2);
     }
 
     .contacto__campo--estilo:hover {
-        @include hover2;
+        @include hover;
     }
 
     .contacto__boton--estilo:hover {
-        @include hover2;
+        @include hover;
     }
 
     .contacto__botonPreg:hover {
-        @include hover2;
+        @include hover;
     }
 
     .software__BotonReq:hover {
-        @include hover2;
+        @include hover;
     }
     
     .software__subseccion:hover {
-        @include hover2;
+        @include hover;
     }
 
     .software2__seccion:hover {
-        @include hover1;
+        @include hover;
     }
     
     .modeladoBoton:hover {
-        @include hover1;
+        @include hover;
     }
 
     .contenidoModelado2:hover {
-        @include hover1;
+        @include hover;
+        transform: scale(1.10,1.10);
     }
 
     .render__img:hover {
-        @include hoverImg1;
+        transform: scale(1.2,1.2);
+        transition: $efecto-transicion;
     }
 
     .render2_subseccion:hover {
-        @include hover1;
+        @include hover;
+        transform: scale(1.10,1.10);
     }
 }
 

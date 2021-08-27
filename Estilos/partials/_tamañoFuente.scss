@@ -19,13 +19,13 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 12px;
     font-family: $fuente-paginas;
     @extend %encabezados;
 }
 
 h4 {
-    font-size: 10px;
+    font-size: 5px;
     font-family: $fuente-paginas;
     @extend %encabezados;
 }

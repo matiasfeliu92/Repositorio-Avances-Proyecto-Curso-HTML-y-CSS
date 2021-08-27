@@ -4,9 +4,9 @@ h1 { font-size: 25px; font-family: "Oswald", sans-serif; margin-top: 15px; margi
 
 h2 { font-size: 20px; font-family: "Oswald", sans-serif; }
 
-h3 { font-size: 15px; font-family: "Oswald", sans-serif; }
+h3 { font-size: 12px; font-family: "Oswald", sans-serif; }
 
-h4 { font-size: 10px; font-family: "Oswald", sans-serif; }
+h4 { font-size: 5px; font-family: "Oswald", sans-serif; }
 
 p { font-size: 15px; font-family: "Oswald", sans-serif; color: black; }
 
@@ -80,7 +80,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .contacto__preguntas { background-color: #dddddd; border-radius: 25px; padding: 10px; }
 
-.contacto__preguntas .contacto__pregunta--estilo { font-weight: bold; }
+.contacto__preguntas .contacto__pregunta--estilo { font-weight: 100; padding: 5px; background-color: #b4b4b4; border-radius: 25px; }
 
 /*PAGINA SOFTWARE*/
 .software__seccion { background-color: #bbb8b8; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; height: 100%; }
@@ -143,18 +143,18 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .alerta { font-size: 90px; }
 
-@media (min-width: 1024px) { .home__subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .Proyectos__img:hover { -webkit-transform: scale(2, 2); transform: scale(2, 2); -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
+@media (min-width: 1024px) { .home__subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); }
+  .Proyectos__img:hover { -webkit-transition: all 1000ms ease; transition: all 1000ms ease; -webkit-transform: scale(2, 2); transform: scale(2, 2); }
   .contacto__campo--estilo:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .contacto__boton--estilo:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .contacto__botonPreg:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .software__BotonReq:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .software__subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .software2__seccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .modeladoBoton:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contenidoModelado2:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .software2__seccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .modeladoBoton:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
+  .contenidoModelado2:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); }
   .render__img:hover { -webkit-transform: scale(1.2, 1.2); transform: scale(1.2, 1.2); -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
-  .render2_subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; } }
+  .render2_subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); } }
 
 @media (max-width: 768px) { .sobreMi { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .sobreMi__sobreMiFoto { padding: 10px; border: none; }
