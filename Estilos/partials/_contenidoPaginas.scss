@@ -19,7 +19,7 @@
 
 /*PAGINA HOME*/
 .home {
-    background-color: rgb(187, 184, 184);
+    // background-color: rgb(187, 184, 184);
     border-radius: $bordes-redondeados/2;
     display: flex;
     justify-content: space-evenly;
@@ -27,7 +27,7 @@
     &__seccion {
       display:flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-around;
       align-items: center;
     }
   
@@ -37,7 +37,7 @@
   }
 
   .home2 {
-    background-color: rgb(221, 221, 221);
+    // background-color: rgb(221, 221, 221);
     border-radius: $bordes-redondeados/2;
     padding: 10px;
     display:flex;
@@ -118,7 +118,7 @@
   
   /*PAGINA SOFTWARE*/
   .software__seccion {
-    background-color: rgb(187, 184, 184);
+    // background-color: rgb(187, 184, 184);
     border-radius: $bordes-redondeados/2;
     padding: 10px;
     display:flex;
@@ -144,7 +144,7 @@
   }
 
   .software2 {
-    background-color: rgb(221, 221, 221);
+    // background-color: rgb(221, 221, 221);
     border-radius: $bordes-redondeados/2;
     display:flex;
     flex-direction: column;
@@ -158,7 +158,7 @@
 
   /*PAGINA MODELADO*/
   .contenidoModelado {
-  background-color: rgb(187, 184, 184);
+  // background-color: rgb(187, 184, 184);
   border-radius: $bordes-redondeados/2; 
   }
 
@@ -168,7 +168,7 @@
   }
 
   .modeladoBoton {
-    background-color:rgb(173, 170, 170);
+    // background-color:rgb(173, 170, 170);
     border:none;
     font-size: 20px;
     border-radius: $bordes-redondeados/2;
@@ -193,7 +193,7 @@
   }
 
   .contenidoModel2 {
-    background-color: rgb(221, 221, 221);
+    // background-color: rgb(221, 221, 221);
     border-radius: $bordes-redondeados/2;
     padding: 10px;
   }
@@ -205,7 +205,7 @@
 
   /*PAGINA RENDER*/
   .render {
-    background-color: rgb(187, 184, 184);
+    // background-color: rgb(187, 184, 184);
     border-radius: $bordes-redondeados/2;
     display:flex;
     flex-direction: column;
@@ -219,7 +219,7 @@
   }
   
   .render2 {
-    background-color: rgb(221, 221, 221);
+    // background-color: rgb(221, 221, 221);
     border-radius: $bordes-redondeados/2;
     padding: 10px;
     display:flex;

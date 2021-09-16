@@ -1,18 +1,18 @@
-h1, h2, h3, h4, .alerta { color: black; font-weight: bolder; }
+h1, h2, h3, h4, .alerta { color: black; font-weight: 1000; font-style: normal; }
 
-h1 { font-size: 25px; font-family: "Oswald", sans-serif; margin-top: 15px; margin-bottom: 10px; }
+h1 { font-size: 25px; font-family: "Big Shoulders Text"; margin-top: 15px; margin-bottom: 10px; }
 
-h2 { font-size: 20px; font-family: "Oswald", sans-serif; }
+h2 { font-size: 20px; font-family: "Big Shoulders Text"; }
 
-h3 { font-size: 12px; font-family: "Oswald", sans-serif; }
+h3 { font-size: 12px; font-family: "Big Shoulders Text"; }
 
-h4 { font-size: 5px; font-family: "Oswald", sans-serif; }
+h4 { font-size: 5px; font-family: "Big Shoulders Text"; }
 
-p { font-size: 16px; font-family: "Oswald", sans-serif; color: black; }
+p { font-size: 16px; font-family: "Big Shoulders Text"; color: black; }
 
-small { font-size: 10px; font-family: "Oswald", sans-serif; color: black; font-weight: 1000; }
+small { font-size: 10px; font-family: "Big Shoulders Text"; color: black; font-weight: 1000; }
 
-h5 { font-size: 10px; font-family: "Oswald", sans-serif; color: black; font-weight: bold; }
+h5 { font-size: 10px; font-family: "Big Shoulders Text"; color: black; font-weight: bold; }
 
 img { border-radius: 25px; border: 1px solid black; }
 
@@ -20,11 +20,11 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .navbar__logo { text-decoration: none; }
 
-.navbar__logo em { font-family: "Oswald", sans-serif; text-decoration: none; color: black; font-size: 40px; font-style: normal; font-weight: bolder; padding: 5px; }
+.navbar__logo em { font-family: "Big Shoulders Text"; text-decoration: none; color: black; font-size: 40px; font-style: normal; font-weight: bolder; padding: 5px; }
 
 .navbar__logo em:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
-.navbar__nav-item { color: black; font-size: 20px; font-family: "Oswald", sans-serif; padding-left: 20px; padding-right: 20px; }
+.navbar__nav-item { color: black; font-size: 20px; font-family: "Big Shoulders Text"; padding-left: 20px; padding-right: 20px; }
 
 .navbar__nav-item:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
@@ -47,13 +47,13 @@ img { border-radius: 25px; border: 1px solid black; }
 .heroRender { background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg"); }
 
 /*PAGINA HOME*/
-.home { background-color: #bbb8b8; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+.home { border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
-.home__seccion { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.home__seccion { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .home__subseccion { padding: 10px; }
 
-.home2 { background-color: #dddddd; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.home2 { border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .home2_subseccion { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
@@ -83,22 +83,22 @@ img { border-radius: 25px; border: 1px solid black; }
 .contacto__preguntas .contacto__pregunta--estilo { font-weight: 100; padding: 5px; background-color: #b4b4b4; border-radius: 25px; }
 
 /*PAGINA SOFTWARE*/
-.software__seccion { background-color: #bbb8b8; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; height: 100%; }
+.software__seccion { border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; height: 100%; }
 
 .software__seccion .software__subseccion { margin-top: 10px; margin-bottom: 10px; padding: 15px; }
 
 .software__seccion .software__BotonReq { text-decoration: none; color: black; font-weight: bold; padding-top: 10px; padding-bottom: 10px; margin-top: 20px; margin-bottom: 20px; }
 
-.software2 { background-color: #dddddd; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+.software2 { border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
 .software2__seccion { margin-top: 50px; margin-bottom: 50px; }
 
 /*PAGINA MODELADO*/
-.contenidoModelado { background-color: #bbb8b8; border-radius: 25px; }
+.contenidoModelado { border-radius: 25px; }
 
 .modeladoTitle { margin-bottom: 20px; margin-top: 5px; }
 
-.modeladoBoton { background-color: #adaaaa; border: none; font-size: 20px; border-radius: 25px; font-weight: bold; color: black; }
+.modeladoBoton { border: none; font-size: 20px; border-radius: 25px; font-weight: bold; color: black; }
 
 .fondoModal { background-image: -webkit-gradient(linear, left top, right top, from(#808080), to(#dcdcdc)); background-image: linear-gradient(to right, #808080, #dcdcdc); border: 2px solid black; padding: 10px; border-radius: 25px; }
 
@@ -106,16 +106,16 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .carruselModelado { margin-top: 20px; margin-bottom: 20px; }
 
-.contenidoModel2 { background-color: #dddddd; border-radius: 25px; padding: 10px; }
+.contenidoModel2 { border-radius: 25px; padding: 10px; }
 
 .contenidoModelado2 { margin-top: 15px; margin-bottom: 15px; }
 
 /*PAGINA RENDER*/
-.render { background-color: #bbb8b8; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+.render { border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
 .render__img { margin-top: 15px; margin-bottom: 15px; width: 100%; }
 
-.render2 { background-color: #dddddd; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.render2 { border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
 .render2_subseccion { margin-top: 25px; margin-bottom: 25px; }
 
@@ -123,7 +123,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .footer__logo { text-decoration: none; }
 
-.footer__logo em { font-family: "Oswald", sans-serif; text-decoration: none; font-style: normal; color: black; font-size: 55px; font-weight: bolder; padding: 5px; }
+.footer__logo em { font-family: "Big Shoulders Text"; text-decoration: none; font-style: normal; color: black; font-size: 55px; font-weight: bolder; padding: 5px; }
 
 .footer__logo em:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
@@ -144,7 +144,7 @@ img { border-radius: 25px; border: 1px solid black; }
 .alerta { font-size: 90px; }
 
 @media (min-width: 1024px) { .home__subseccion:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); }
-  .Proyectos__img:hover { -webkit-transition: all 1000ms ease; transition: all 1000ms ease; -webkit-transform: scale(2, 2); transform: scale(2, 2); }
+  .Proyectos__img:hover { -webkit-transition: all 1000ms ease; transition: all 1000ms ease; -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); }
   .contacto__campo--estilo:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .contacto__boton--estilo:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
   .contacto__botonPreg:hover { background-color: white; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
@@ -160,4 +160,4 @@ img { border-radius: 25px; border: 1px solid black; }
   .sobreMi__sobreMiFoto { padding: 10px; border: none; }
   .sobreMi__seccion2 { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; padding: 5px; }
   .footer { padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; }
-  .footer em { font-family: "Oswald", sans-serif; text-decoration: none; font-style: normal; color: black; font-size: 40px; font-weight: bolder; } }
+  .footer em { font-family: "Big Shoulders Text"; text-decoration: none; font-style: normal; color: black; font-size: 40px; font-weight: bolder; } }
