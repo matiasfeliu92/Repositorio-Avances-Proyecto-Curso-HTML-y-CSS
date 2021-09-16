@@ -10,9 +10,15 @@
 }
 
 %heroText {
-  background-color: white;
-  opacity:0.7;
+  // background-color: white;
+  // opacity:0.7;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
+
+
 
 .heroHome {
     background-image: url(https://imagenes.elpais.com/resizer/YWs6XqFR7_veZSRI2s2eIWg7yMQ=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg);
@@ -20,6 +26,10 @@
   
       &__Text {
         @extend %heroText;
+
+        h3,h4,h5 {
+          color: white;
+        }
       }
   }
 
@@ -29,6 +39,10 @@
   
       &__Text {
         @extend %heroText;
+
+        h3,h4,h5 {
+          color: white;
+        }
       }
 } 
 
@@ -38,6 +52,10 @@
   
     &__Text {
       @extend %heroText;
+
+      h3,h4,h5 {
+        color: white;
+      }
     }
 }
 
@@ -47,6 +65,10 @@
 
     &__Text {
       @extend %heroText;
+
+      h3,h4,h5 {
+        color: white;
+      }
     }
 }
 
@@ -56,6 +78,10 @@
   
     &__Text {
       @extend %heroText;
+
+      h3,h4,h5 {
+        color: white;
+      }
     }
 }
 
@@ -65,6 +91,10 @@
     
     &__Text {
       @extend %heroText;
+
+      h3,h4,h5 {
+        color: white;
+      }
     }
 }
 
@@ -75,5 +105,9 @@
   
     &__Text {
       @extend %heroText;
+
+      h3,h4,h5 {
+        color: white;
+      }
     }
 }

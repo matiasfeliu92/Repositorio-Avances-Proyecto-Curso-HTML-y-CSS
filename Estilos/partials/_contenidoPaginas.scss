@@ -82,7 +82,7 @@
   /*PAGINA CONTACTO*/
 
   .contacto {
-    background-color: rgb(187, 184, 184);
+    // background-color: rgb(187, 184, 184);
     border-radius: $bordes-redondeados/2;
     padding: 10px;
 
@@ -91,11 +91,13 @@
       margin-bottom: 10px;
       display:flex;
       flex-direction: column;
+      font-family: $fuente-paginas;
     }
     
     &__boton--estilo {
       margin-right: 20px;
-      font-weight: 800;
+      font-weight: 1000;
+      font-family: $fuente-paginas;
     }
   
     &__parrafo--estilo {
@@ -104,14 +106,14 @@
   }
 
   .contacto__preguntas {
-    background-color: rgb(221, 221, 221);
+    // background-color: rgb(221, 221, 221);
     border-radius: $bordes-redondeados/2;
     padding: 10px;
 
     .contacto__pregunta--estilo {
-      font-weight:100;
+      font-weight:1000;
       padding: 5px;
-      background-color: rgb(180, 180, 180);
+      // background-color: rgb(180, 180, 180);
       border-radius: $bordes-redondeados/2;
     }
   }
