@@ -1,7 +1,7 @@
 .navbar {
     background-image: linear-gradient(to right, #696969, #c0c0c0);
 
-    &__logo {
+    .navbar__logo {
       text-decoration: none;
       
 
@@ -16,23 +16,25 @@
       }
 
       em:hover {
-        background-color: white;
-        border-radius: $bordes-redondeados/2;
+        // background-color: white;
+        // border-radius: $bordes-redondeados/2;
         transition: $efecto-transicion;
+        color: white;
       }
     }
 
-    &__nav-item {
+    .navbar__nav-item {
       color: black;
       font-size: 20px;
       font-family: $fuente-paginas;
       padding-left: 20px;
       padding-right: 20px;
+
     }
 
-    &__nav-item:hover {
-      background-color: white;
-      border-radius: $bordes-redondeados/2;
-      transition: $efecto-transicion;
+    .navbar__nav-item:hover {
+      a:hover {
+        color: white;
+      }
     }
-  }
+}

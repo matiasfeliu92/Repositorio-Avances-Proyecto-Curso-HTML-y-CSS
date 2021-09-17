@@ -18,15 +18,15 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .navbar { background-image: -webkit-gradient(linear, left top, right top, from(#696969), to(#c0c0c0)); background-image: linear-gradient(to right, #696969, #c0c0c0); }
 
-.navbar__logo { text-decoration: none; }
+.navbar .navbar__logo { text-decoration: none; }
 
-.navbar__logo em { font-family: "Big Shoulders Text"; text-decoration: none; color: black; font-size: 40px; font-style: normal; font-weight: 1000; padding: 5px; }
+.navbar .navbar__logo em { font-family: "Big Shoulders Text"; text-decoration: none; color: black; font-size: 40px; font-style: normal; font-weight: 1000; padding: 5px; }
 
-.navbar__logo em:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
+.navbar .navbar__logo em:hover { -webkit-transition: all 1000ms ease; transition: all 1000ms ease; color: white; }
 
-.navbar__nav-item { color: black; font-size: 20px; font-family: "Big Shoulders Text"; padding-left: 20px; padding-right: 20px; }
+.navbar .navbar__nav-item { color: black; font-size: 20px; font-family: "Big Shoulders Text"; padding-left: 20px; padding-right: 20px; }
 
-.navbar__nav-item:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
+.navbar .navbar__nav-item:hover a:hover { color: white; }
 
 .heroHome, .heroProyectos, .heroSobreMi, .heroContacto, .heroSoftware, .heroModelado, .heroRender { height: 60vh; background-position: center; background-repeat: no-repeat; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
@@ -139,7 +139,7 @@ img { border-radius: 25px; border: 1px solid black; }
 
 .footer__logo em { font-family: "Big Shoulders Text"; text-decoration: none; font-style: normal; color: black; font-size: 55px; font-weight: 1000; padding: 5px; }
 
-.footer__logo em:hover { background-color: white; border-radius: 25px; -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
+.footer__logo em:hover { -webkit-transition: all 1000ms ease; transition: all 1000ms ease; color: white; }
 
 .footer__datos { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 5px; margin: 5px; }
 
@@ -150,6 +150,8 @@ img { border-radius: 25px; border: 1px solid black; }
 .footer__Link:hover { -webkit-transform: scale(3.5, 3.5); transform: scale(3.5, 3.5); -webkit-transition: all 1000ms ease; transition: all 1000ms ease; }
 
 .footer__LinkColor { color: black; }
+
+.footer__LinkColor:hover { color: white; }
 
 .icono404 { border: none; }
 

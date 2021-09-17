@@ -20,9 +20,10 @@
       }
 
       em:hover {
-        background-color: white;
-        border-radius: $bordes-redondeados/2;
+        // background-color: white;
+        // border-radius: $bordes-redondeados/2;
         transition: $efecto-transicion;
+        color: white;
       }
     }
 
@@ -56,6 +57,10 @@
     
     &__LinkColor {
       color: black;
+    }
+
+    &__LinkColor:hover {
+      color: white;
     }
     
   }
