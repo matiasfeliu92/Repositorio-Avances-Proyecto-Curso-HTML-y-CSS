@@ -1,210 +1,217 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Tips a tener en cuenta a la hora de modelar en 3D, descarga de programas">
-    <meta name="keywords"  content="Modelado, Software, Sketchup, Revit, 3ds Max, descarga de software">
+    <meta name="keywords" content="Modelado, Software, Sketchup, Revit, 3ds Max, descarga de software">
     <!-- <link href = "https: //fonts.googleapis.com/css2? family = Oswald & display = swap "rel =" stylesheet "> -->
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./Estilos/Estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./js/presentacionAnimada.js"></script>
     <title>Modeladando en 3D</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar__logo" href="./index.html">
-          <em>ARQ. M.M.F</em>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid">
+            <a class="navbar__logo" href="./index.html">
+                <em>ARQ. M.M.F</em>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav align-items-center">
-            <li class="nav-item navbar__nav-item">
-              <a class="nav-link" href="./Proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item navbar__nav-item">
-              <a class="nav-link" href="./sobreMi.html">Sobre Mi</a>
-            </li>
-            <li class="nav-item navbar__nav-item">
-              <a class="nav-link" href="./Contacto.html">Contacto</a>
-            </li>
-          </ul>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item navbar__nav-item">
+                        <a class="nav-link" href="./Proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item navbar__nav-item">
+                        <a class="nav-link" href="./sobreMi.html">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item navbar__nav-item">
+                        <a class="nav-link" href="./Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-    <header class="heroModelado">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="Text heroModelado__Text col-md-12">
-            <h3>“La ciudad debe devolverle al hombre lo que le quito, la luz y el aire, el espacio y el tiempo.”</h3>
-            <h4>Arq Amancio Williams</h4>
-          </div>
+    <!-- <header class="heroModelado">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="Text heroModelado__Text col-md-12">
+                    <h3>“La ciudad debe devolverle al hombre lo que le quito, la luz y el aire, el espacio y el tiempo.”</h3>
+                    <h4>Arq Amancio Williams</h4>
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
+    </header> -->
+    <div id="animacionHome" class="presentacionModelado">
+        <h3 class="frase">“La especialidad, flexibilidad y calidad se consigue mediante un sistema modular de grandes cajas.”</h3>
+        <h4 class="arq">Estudio Monoblock</h4>
+    </div>
     <div class="container-fluid">
-      <div class="row">
-          <main class="contenidoModelado col-md-6 offset-md-1 mt-3 mb-3 text-center">
-            <section class="modelado1">
-              <h1>Modelado en 3D</h1>
-              <button type="button" class="modeladoBoton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="row">
+            <main class="contenidoModelado col-md-6 offset-md-1 mt-3 mb-3 text-center">
+                <section class="modelado1">
+                    <h1>Modelado en 3D</h1>
+                    <button type="button" class="modeladoBoton" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Pasos para modelar en 3d
               </button>
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-              <div class="fondoModal modal-content">
-              <div>
-                <h3 id="exampleModalLabel">Pasos para modelar en 3d</h3>
-              </div>
-              <div class="modal-body text-start">
-                <ol>
-                  <li class="listaModelado">Realizar los planos 2d del proyecto en Cad</li>
-                  <li class="listaModelado">Importar los planos del proyecto al software de modelado</li>
-                  <li class="listaModelado">Comenzar a levantar el plano, modelando primero las paredes</li>
-                  <li class="listaModelado">Aplicar Materiales al modelado</li>
-                </ol>
-              </div>
-              <div>
-                <button type="button" class="modeladoBotonReq btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-              </div>
-              </div>
-              </div>
-              <!--CARROUSEL 1-->
-              <div id="carouselExampleIndicators" class="carruselModelado carousel slide" data-bs-ride="carousel">
-                <h2>Modelado en Revit 2020</h2>
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="fondoModal modal-content">
+                                <div>
+                                    <h3 id="exampleModalLabel">Pasos para modelar en 3d</h3>
+                                </div>
+                                <div class="modal-body text-start">
+                                    <ol>
+                                        <li class="listaModelado">Realizar los planos 2d del proyecto en Cad</li>
+                                        <li class="listaModelado">Importar los planos del proyecto al software de modelado</li>
+                                        <li class="listaModelado">Comenzar a levantar el plano, modelando primero las paredes</li>
+                                        <li class="listaModelado">Aplicar Materiales al modelado</li>
+                                    </ol>
+                                </div>
+                                <div>
+                                    <button type="button" class="modeladoBotonReq btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--CARROUSEL 1-->
+                    <div id="carouselExampleIndicators" class="carruselModelado carousel slide" data-bs-ride="carousel">
+                        <h2>Modelado en Revit 2020</h2>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Imagenes/Modelado 1.PNG" class="d-block w-100" alt="Modelado Revit 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/Modelado 2.PNG" class="d-block w-100" alt="Modelado Revit 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/Modelado 3.PNG" class="d-block w-100" alt="Modelado Revit 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+                    </div>
+                    <!--CARROUSEL 2-->
+                    <div id="carouselExampleControls" class="carruselModelado carousel slide" data-bs-ride="carousel">
+                        <h2>Modelado en Revit 2020</h2>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Imagenes/Modelado 4.PNG" class="d-block w-100" alt="Modelado Sketchup 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/Modelado 5.PNG" class="d-block w-100" alt="Modelado Sketchup 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/Modelado 6.PNG" class="d-block w-100" alt="Modelado Sketchup 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+                    </div>
+                    <!--CARROUSEL 3-->
+                    <div id="carouselExampleControls" class="carruselModelado carousel slide" data-bs-ride="carousel">
+                        <h2>Modelado en 3d Studio Max</h2>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Imagenes/portada.jpg" class="d-block w-100" alt="Modelado 3ds Max 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/234250-Radeon-ProRender-3ds-Max-2020-screenshot_1260x709.webp" class="d-block w-100" alt="Modelado 3ds Max 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/wire.jpg" class="d-block w-100" alt="Modelado 3ds Max 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+                    </div>
+                </section>
+            </main>
+            <aside class="contenidoModel2 col-md-3 offset-md-1 mt-3 mb-3 text-center">
+                <div>
+                    <h3>Descarga de software</h3>
+                    <p>A continuacion, haz click en la imagen para descargar los programas que necesites</p>
                 </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="./Imagenes/Modelado 1.PNG" class="d-block w-100" alt="Modelado Revit 1">
-              </div>
-              <div class="carousel-item">
-                <img src="./Imagenes/Modelado 2.PNG" class="d-block w-100" alt="Modelado Revit 2">
-              </div>
-              <div class="carousel-item">
-                <img src="./Imagenes/Modelado 3.PNG" class="d-block w-100" alt="Modelado Revit 3">
-              </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-              </div>
-              <!--CARROUSEL 2-->
-              <div id="carouselExampleControls" class="carruselModelado carousel slide" data-bs-ride="carousel">
-                <h2>Modelado en Revit 2020</h2>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="./Imagenes/Modelado 4.PNG" class="d-block w-100" alt="Modelado Sketchup 1">
-              </div>
-              <div class="carousel-item">
-                <img src="./Imagenes/Modelado 5.PNG" class="d-block w-100" alt="Modelado Sketchup 2">
-              </div>
-              <div class="carousel-item">
-                <img src="./Imagenes/Modelado 6.PNG" class="d-block w-100" alt="Modelado Sketchup 3">
-              </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-              </div>
-              <!--CARROUSEL 3-->
-              <div id="carouselExampleControls" class="carruselModelado carousel slide" data-bs-ride="carousel">
-                <h2>Modelado en 3d Studio Max</h2>
-              <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./Imagenes/portada.jpg" class="d-block w-100" alt="Modelado 3ds Max 1">
-              </div>
-              <div class="carousel-item">
-                <img src="./Imagenes/234250-Radeon-ProRender-3ds-Max-2020-screenshot_1260x709.webp" class="d-block w-100" alt="Modelado 3ds Max 2">
-              </div>
-              <div class="carousel-item">
-                <img src="./Imagenes/wire.jpg" class="d-block w-100" alt="Modelado 3ds Max 3">
-              </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-              </div>
-            </section>
-          </main>
-          <aside class="contenidoModel2 col-md-3 offset-md-1 mt-3 mb-3 text-center">
-            <div>
-                <h3>Descarga de software</h3>
-                <p>A continuacion, haz click en la imagen para descargar los programas que necesites</p>
-            </div>
-            <div class="contenidoModelado2">
-                <h4>Autocad 2019</h4>
-                <a href="https://www.artistapirata.com/autocad-2019-64-bits-pro/"><img class="img-fluid imgModelado2" src="./Imagenes/AUTOCAD 2019.jpg" alt="Descargar autocad"></a>
-            </div>
-            <div class="contenidoModelado2">
-                <h4>Revit 2021</h4>
-                <a href="https://www.artistapirata.com/autodesk-revit-2021/"><img class="img-fluid imgModelado2" src="./Imagenes/revit-2021-badge-1024px-e1596952521550.jpg" alt="Descargar Revit"></a>
-            </div>
-            <div class="contenidoModelado2">
-                <h4>Sketchup 2021</h4>
-                <a href="https://www.artistapirata.com/sketchup-2020-pro-version-20-mac-windows/"><img class="img-fluid imgModelado2" src="./Imagenes/sketchup-2021-full-mega.jpg" alt="Descargar Sketchup"></a>
-            </div>
-            <div class="contenidoModelado2">
-                <h4>3ds max 2020</h4>
-                <a href="https://www.youtube.com/watch?v=O59wzFOiFYc"><img class="img-fluid imgModelado2" src="./Imagenes/3dsm_2021v3g4.png" alt="Descargar 3ds max"></a>
-            </div>
-            <div class="contenidoModelado2">
-                <h4>V-Ray Next 4.20.01</h4>
-                <a href="https://www.artistapirata.com/v-ray-next-4-20-01-para-sketchup-2020-2015-windows/"><img class="img-fluid imgModelado2" src="./Imagenes/Vray-Next-4.jpg" alt="Descargar Vray"></a>
-            </div>
-          </aside>
-      </div>
+                <div class="contenidoModelado2">
+                    <h4>Autocad 2019</h4>
+                    <a href="https://www.artistapirata.com/autocad-2019-64-bits-pro/"><img class="img-fluid imgModelado2" src="./Imagenes/AUTOCAD 2019.jpg" alt="Descargar autocad"></a>
+                </div>
+                <div class="contenidoModelado2">
+                    <h4>Revit 2021</h4>
+                    <a href="https://www.artistapirata.com/autodesk-revit-2021/"><img class="img-fluid imgModelado2" src="./Imagenes/revit-2021-badge-1024px-e1596952521550.jpg" alt="Descargar Revit"></a>
+                </div>
+                <div class="contenidoModelado2">
+                    <h4>Sketchup 2021</h4>
+                    <a href="https://www.artistapirata.com/sketchup-2020-pro-version-20-mac-windows/"><img class="img-fluid imgModelado2" src="./Imagenes/sketchup-2021-full-mega.jpg" alt="Descargar Sketchup"></a>
+                </div>
+                <div class="contenidoModelado2">
+                    <h4>3ds max 2020</h4>
+                    <a href="https://www.youtube.com/watch?v=O59wzFOiFYc"><img class="img-fluid imgModelado2" src="./Imagenes/3dsm_2021v3g4.png" alt="Descargar 3ds max"></a>
+                </div>
+                <div class="contenidoModelado2">
+                    <h4>V-Ray Next 4.20.01</h4>
+                    <a href="https://www.artistapirata.com/v-ray-next-4-20-01-para-sketchup-2020-2015-windows/"><img class="img-fluid imgModelado2" src="./Imagenes/Vray-Next-4.jpg" alt="Descargar Vray"></a>
+                </div>
+            </aside>
+        </div>
     </div>
     <footer class="footer">
-      <div>
-        <a class="footer__logo" href="./index.html">
-          <em>ARQ. M.M.F</em>
-        </a>
-      </div>
-      <div class="footer__datos">
-        <h3>@Copyright 2021</h3>
-        <h3>Matias Mazparrote Feliu</h3>
-        <p>Belgrano, Ciudad de Buenos Aires <br>
-        email: matumazparrote@gmail.com <br>
-        Contacto: 01137969985 </p>
-      </div>
-      <div>
-        <ul class="footer__Links">
-          <li class="footer__Link">
-            <a href="https://www.facebook.com/Arq-Matias-Mazparrote-Feliu-108664250783460"> <i class="footer__LinkColor bi bi-facebook"></i> </a>
-          </li>
-          <li class="footer__Link"> 
-            <a href="https://www.instagram.com/arq.matias.mazparrote.feliu/"> <i class="footer__LinkColor bi bi-instagram"></i> </a>
-          </li>
-          <li class="footer__Link">
-            <a href="https://www.linkedin.com/in/arq-mat%C3%ADas-mazparrote-feli%C3%BA/"> <i class="footer__LinkColor bi bi-linkedin"></i> </a>
-          </li>
-        </ul>
-      </div>
+        <div>
+            <a class="footer__logo" href="./index.html">
+                <em>ARQ. M.M.F</em>
+            </a>
+        </div>
+        <div class="footer__datos">
+            <h3>@Copyright 2021</h3>
+            <h3>Matias Mazparrote Feliu</h3>
+            <p>Belgrano, Ciudad de Buenos Aires <br> email: matumazparrote@gmail.com <br> Contacto: 01137969985 </p>
+        </div>
+        <div>
+            <ul class="footer__Links">
+                <li class="footer__Link">
+                    <a href="https://www.facebook.com/Arq-Matias-Mazparrote-Feliu-108664250783460"> <i class="footer__LinkColor bi bi-facebook"></i> </a>
+                </li>
+                <li class="footer__Link">
+                    <a href="https://www.instagram.com/arq.matias.mazparrote.feliu/"> <i class="footer__LinkColor bi bi-instagram"></i> </a>
+                </li>
+                <li class="footer__Link">
+                    <a href="https://www.linkedin.com/in/arq-mat%C3%ADas-mazparrote-feli%C3%BA/"> <i class="footer__LinkColor bi bi-linkedin"></i> </a>
+                </li>
+            </ul>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+
 </html>
