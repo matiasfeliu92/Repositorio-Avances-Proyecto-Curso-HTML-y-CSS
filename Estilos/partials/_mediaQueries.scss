@@ -9,51 +9,40 @@
 @media (min-width: 1024px) {
     .home__subseccion:hover {
         @include hover (white, all 1000ms ease, 50px);
-        transform: scale(1.10,1.10);
+        transform: scale(1.10, 1.10);
     }
-
     .Proyectos__img:hover {
         transition: $efecto-transicion;
-        transform: scale(1.6,1.6);
+        transform: scale(1.6, 1.6);
     }
-
     .contacto__campo--estilo:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-
     .contacto__boton--estilo:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-
     .contacto__botonPreg:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-
     .software__BotonReq:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-    
     .software__subseccion:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-
     .software2__seccion:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-    
     .modeladoBoton:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-
     .contenidoModelado2:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
-
     .render__img:hover {
-        transform: scale(1.2,1.2);
+        transform: scale(1.2, 1.2);
         transition: $efecto-transicion;
     }
-
     .render2_subseccion:hover {
         @include hover (white, all 1000ms ease, 50px);
     }
@@ -63,26 +52,22 @@
     .sobreMi {
         display: flex;
         flex-direction: column;
-
         &__sobreMiFoto {
             padding: 10px;
             border: none;
         }
-    
         &__seccion2 {
-          align-self: center;
-          padding: 5px;
+            align-self: center;
+            padding: 5px;
         }
-      }
-
+    }
     .footer {
         padding: 10px;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         padding: 5px;
-
         em {
             font-family: $fuente-paginas;
             text-decoration: none;
@@ -90,6 +75,6 @@
             color: black;
             font-size: 40px;
             font-weight: bolder;
-          }
+        }
     }
 }
