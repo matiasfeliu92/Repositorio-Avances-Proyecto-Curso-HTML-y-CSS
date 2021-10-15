@@ -7,21 +7,21 @@ $(document).ready(() => {
 })
 
 $(document).ready(() => {
-    $('.presentacionSobreMi').fadeOut(13000)
+    $('.presentacionSobreMi').fadeOut(10000)
 })
 
 $(document).ready(() => {
-    $('.presentacionContacto').fadeOut(13000)
+    $('.presentacionContacto').fadeOut(10000)
 })
 
 $(document).ready(() => {
-    $('.presentacionSoftware').fadeOut(13000)
+    $('.presentacionSoftware').fadeOut(10000)
 })
 
 $(document).ready(() => {
-    $('.presentacionModelado').fadeOut(13000)
+    $('.presentacionModelado').fadeOut(10000)
 })
 
 $(document).ready(() => {
-    $('.presentacionRender').fadeOut(13000)
+    $('.presentacionRender').fadeOut(10000)
 })
