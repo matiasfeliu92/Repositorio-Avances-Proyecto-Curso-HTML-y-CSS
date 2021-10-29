@@ -955,4 +955,326 @@ img {
           align-items: center;
   padding: 30px;
 }
+
+.modalContainer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContainer .modal-home {
+  background-image: url(https://imagenes.elpais.com/resizer/YWs6XqFR7_veZSRI2s2eIWg7yMQ=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.modalContainer .modal-home span {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-home h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-home h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.modalContainer .modal-proyectos {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/800px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.modalContainer .modal-proyectos span {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-proyectos h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-proyectos h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.modalContainer .modal-sobre-mi {
+  background-image: url("https://es.wikiarquitectura.com/wp-content/uploads/2017/01/CROWN_HALL_04.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.modalContainer .modal-sobre-mi span {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-sobre-mi h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-sobre-mi h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.modalContainer .modal-contacto {
+  background-image: url("https://www.bn.gov.ar/web/home/home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.modalContainer .modal-contacto span {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-contacto h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-contacto h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.modalContainer .modal-sofware {
+  background-image: url("https://www.infobae.com/new-resizer/VUkPwA32-pxp7wJaOanI9oW1vt4=/768x432/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.modalContainer .modal-sofware span {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-sofware h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-sofware h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.modalContainer .modal-modelado {
+  background-image: url("https://fpaa.site/wp-content/uploads/2019/10/casa-emblematica-9.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.modalContainer .modal-modelado span {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-modelado h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-modelado h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.modalContainer .modal-render {
+  background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.modalContainer .modal-render span {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-render h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.modalContainer .modal-render h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.modalContainer .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 /*# sourceMappingURL=Estilos.css.map */
