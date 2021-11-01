@@ -1,6 +1,7 @@
-// const imgGaleria = $('.Proyectos__img')
-// console.log(imgGaleria)
+const imgGaleria = $('.Proyectos__img')
+console.log(imgGaleria)
 
-// $('#img-1, #img-2').click(() => {
-//     $('#img-1, #img-2').toggleClass('agrandarImagenes')
-// })
+$('.Proyectos__img').click((event) => {
+    $('.Proyectos__img').toggleClass('agrandarImagenes')
+    event.stopImmediatePropagation()
+})
