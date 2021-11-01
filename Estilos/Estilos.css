@@ -733,229 +733,6 @@ img {
   }
 }
 
-.frase,
-.arq {
-  color: white;
-}
-
-.frase {
-  font-size: 40px;
-}
-
-.arq {
-  font-size: 30px;
-}
-
-.presentacionHome {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  background-image: url(https://imagenes.elpais.com/resizer/YWs6XqFR7_veZSRI2s2eIWg7yMQ=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-}
-
-.presentacionProyectos {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/800px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-}
-
-.presentacionSobreMi {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  background-image: url("https://es.wikiarquitectura.com/wp-content/uploads/2017/01/CROWN_HALL_04.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-}
-
-.presentacionContacto {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  background-image: url("https://www.bn.gov.ar/web/home/home.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-}
-
-.presentacionSoftware {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  background-image: url("https://www.infobae.com/new-resizer/VUkPwA32-pxp7wJaOanI9oW1vt4=/768x432/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-}
-
-.presentacionModelado {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  background-image: url("https://fpaa.site/wp-content/uploads/2019/10/casa-emblematica-9.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-}
-
-.presentacionRender {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-}
-
 .modalContainer {
   display: none;
   position: fixed;
@@ -971,7 +748,7 @@ img {
 }
 
 .modalContainer .modal-home {
-  background-image: url(https://imagenes.elpais.com/resizer/YWs6XqFR7_veZSRI2s2eIWg7yMQ=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg);
+  background-image: url("/Imagenes/YVAVRRM2YLEMGDTYWL55IJRDGA.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1013,7 +790,7 @@ img {
 }
 
 .modalContainer .modal-proyectos {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/800px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg");
+  background-image: url("/Imagenes/800px-The_Barcelona_Pavilion,_Barcelona,_2010.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1055,7 +832,7 @@ img {
 }
 
 .modalContainer .modal-sobre-mi {
-  background-image: url("https://es.wikiarquitectura.com/wp-content/uploads/2017/01/CROWN_HALL_04.jpg");
+  background-image: url("/Imagenes/CROWN_HALL_04.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1097,7 +874,7 @@ img {
 }
 
 .modalContainer .modal-contacto {
-  background-image: url("https://www.bn.gov.ar/web/home/home.jpg");
+  background-image: url("/Imagenes/biblioteca.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1139,7 +916,7 @@ img {
 }
 
 .modalContainer .modal-sofware {
-  background-image: url("https://www.infobae.com/new-resizer/VUkPwA32-pxp7wJaOanI9oW1vt4=/768x432/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg");
+  background-image: url("/Imagenes/X55UNRRQH5ARLDTCZ7R7DFBIIQ.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1181,7 +958,7 @@ img {
 }
 
 .modalContainer .modal-modelado {
-  background-image: url("https://fpaa.site/wp-content/uploads/2019/10/casa-emblematica-9.jpg");
+  background-image: url("/Imagenes/casa-emblematica-9.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1223,7 +1000,7 @@ img {
 }
 
 .modalContainer .modal-render {
-  background-image: url("https://www.arquitecturaydiseno.es/medio/2020/07/02/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101455_1280x794.jpg");
+  background-image: url("/Imagenes/la-residencia-kaufmann-en-pensilvania-mas-conocida-como-casa-de-la-cascada-1939-es-el-proyecto-residencial-mas-conocido-de-frank-lloyd-wright_76101.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
